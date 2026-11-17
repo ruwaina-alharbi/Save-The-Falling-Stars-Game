@@ -10,10 +10,6 @@ Developed as a team project for the Computer Graphics course (CS2206) at Umm Al-
 |-----------|----------|
 | ![Main Menu](menu.png) | ![Gameplay](gameplay.png) |
 
-| Win Screen | Game Over Screen |
-|------------|------------------|
-| ![Win](win.png) | ![Game Over](lose.png) |
-
 ## Features
 - Six screens: Main Menu, Instructions, Credits, Gameplay, Win, and Game Over
 - Falling star and bomb with random positions
@@ -39,13 +35,7 @@ Developed as a team project for the Computer Graphics course (CS2206) at Umm Al-
 ## Files
 - `SaveTheFallingStars.cpp`: full source code of the game
 - `win.bmp` / `lose.bmp`: textures used by the Win and Game Over screens
-- `menu.png`, `gameplay.png`, `win.png`, `lose.png`: screenshots
+- `menu.png`, `gameplay.png`: screenshots
 
 ## Technologies
-C++, OpenGL, GLUT / FreeGLUT, GLEW, Computer Graphics
-
-## Team
-- Lamyaa Dia Mohammed (Team Leader): main menu, instructions and credits screens
-- Ruwaina Alharbi: game objects (star, bomb, basket), game logic, and basket movement
-- Taif Alqethami: gameplay background scene
-- Sara Alharthi: win and game over screens, and texture mapping
+C++, OpenGL,
